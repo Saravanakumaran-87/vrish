@@ -29,7 +29,7 @@ header{
     padding: 20px 20px 10px 20px;
     border-bottom: rgb(95, 90, 90) 2px solid;
     z-index: 99;
-    
+    width: 100%;
 }
 
 .nav-left{
@@ -204,8 +204,58 @@ header{
 
     height:400px;
     background-color: rgb(54, 56, 57);
+    position: relative;
+   
+}
+#LIMITED{
+    color:white;
+    font-size: 20px;
+    position: absolute;
+   top:325px;
+    left:25px;
+    font-family: "Rancho",cursive ;
+    letter-spacing: 4px;
 }
 
+#noise{
+    position: absolute;
+    left:80px;
+    width:100px;
+    height:100px;
+    top:80px;
+}
+#blutooth{
+    position: absolute;
+    left:650px;
+    width:40px;
+    height:40px;
+    top:300px;
+    background-color: white;
+    border-radius: 50px;
+    padding:5px;
+}
+#blu-text{
+    position: absolute;
+    left:710px;
+    top:310px;
+    color:white;
+}
+#mic{
+    position: absolute;
+    left:690px;
+    width:40px;
+    height:40px;
+    top:80px;
+    background-color: white;
+    border-radius: 50px;
+    padding:5px;
+}
+#mic-text{
+    position: absolute;
+    left:750px;
+    top:90px;
+    color:white;
+}
 /* details section */
 
 .details{
